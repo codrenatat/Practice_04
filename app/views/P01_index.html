@@ -242,20 +242,19 @@
   </main>
 
   <footer>
-    <!-- Pagination -->
-    <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-                <a class="color page-link" href="#" tabindex="-1" >«</a>
-            </li>
-            <li class="page-item"><a class="page-link" onclick = 'showProducts(1)'>1</a></li>
-            <li class="page-item"><a class="page-link" onclick = 'showProducts(2)'>2</a></li>
-            <li cclass="page-item"><a class="page-link" onclick = 'showProducts(3)'>3</a></li>
-            <li cclass="page-item">
-                <a class="page-link" href="#">»</a>
-            </li>
-        </ul>
-    </nav>
+    <!-- BEGIN PAGINATION -->
+    <div class="pagination-container">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#"><<</a></li>
+                <li class="page-item"><a class="page-link" onclick = 'showProducts(1)'>1</a></li>
+                <li class="page-item"><a class="page-link" onclick = 'showProducts(2)'>2</a></li>
+                <li class="page-item"><a class="page-link" onclick = 'showProducts(3)'>3</a></li>
+                <li class="page-item"><a class="page-link" href="#">>></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- END PAGINATION -->
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->
