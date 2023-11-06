@@ -1,103 +1,86 @@
-.navbar-custom {
-    background-color: #c5d8c5;
+.pagination-container{
+    display: flex;
+    justify-content: center
 }
 
-#boton-custom{
-    border-color: #6a7718;
-    background-color: #c5d8c5;
-    color: black;
+.card-title{
+    font-family: fantasy;
+    text-align: center;
+    color: #ff903d;
 }
 
-#boton-custom:hover{
-    background-color: #6a7718;
-    color: white;
+.pagination-container .page-item .page-link {
+        color: white;
+        background-color: #fd88b6;
 }
 
-#card-img{
-    height: 250px;
-    width: 250px;
-}
-
-#card{
-    width: 250px;
-    height: 480px;
-}
-
-.carousel{
-    width:80%; 
-    height:450px; 
-    margin-left: auto; 
-    margin-right: auto;
-    
-}
-
-.carousel-item{
-    background-color: #FAFAFA;
-}
-
-.d-block{
-    margin-left: auto; 
-    margin-right: auto;
-    height: 350px;
+.card-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #fd88b6;
 }
 
 
 
-.d-block-right{
-    float:right;
+.navbar-custom .navbar-nav .nav-link {
+    font-family: fantasy;
 }
 
-.icon-color{
-    color: #6a7718;
+.navbar-custom .navbar-nav .nav-link[href="P01_index.html"],
+.navbar-custom .navbar-nav .nav-link[type="submit"] {
+        font-family: fantasy;
 }
 
-#media-mini {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px; 
-    float: right;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    
+h5{
+    font-family: fantasy;
+    color: #ff903d;
 }
 
-#large-media{
-    width:85%;
-    height: 200px;
+.form-label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fd88b6;
 }
 
-.input-width{
-    width:60%;
+h4{
+    font-family: fantasy;
+    color: #ff903d;
 }
 
-#boton-pagar{
-    background-color: #6a7718;
-    color: white;
-    width: 110px;
+h3{
+    font-family: fantasy;
+    color: #ff903d;
 }
 
-.custom-width{
-    width:95px;
+b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fd88b6;
+}
+
+h2{
+    font-family: fantasy;
+    text-align: center;
+    color: #fd88b6;
+}
+
+h1{
+    font-family: fantasy;
+    text-align: center;
+    color: #fd88b6;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .card:hover{
-    border-color: #6a7718;
-    border-style: dotted double;
-}
-
-.parrafo {
-    max-width: 900px; 
-    margin: 0 auto; 
-    text-align: center;
-}
-
-#boton-carrito{
-    background-color: #6a7718;
-    width: 160px;
-    color: white;
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
-    margin-bottom: 7px;
-    text-align: center;
-
+    transform: scale(1.05);
 }
