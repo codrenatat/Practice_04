@@ -1,0 +1,92 @@
+### Obtener todos los productos
+GET http://localhost:3000/products HTTP/1.1
+### Obtener el producto por el Título
+GET http://localhost:3000/products?title=Terrarios HTTP/1.1
+### Obtener el producto por la Categoría
+GET http://localhost:3000/products?category=Categoría A HTTP/1.1
+### Obtener el producto por Ambos
+GET http://localhost:3000/products?category=Categoría C&title=Terrarios HTTP/1.1
+
+###Post de productos que sí existen
+POST http://localhost:3000/products/cart HTTP/1.1
+Content-Type: application/json
+
+{"products":[{
+        "uuid":"a4c79599-ea8f-4dbc-83d6-b2f45a3cbb99",
+        "title":"Jardinería de contenedor",
+        "description":"Descripción 1",
+        "imageUrl":"IMAGES/planta1.png",
+        "unit":"pieza",
+        "stock":100,
+        "pricePerUnit":150,
+        "category":"Categoría A"
+    },
+    {
+        "uuid":"2d78ff2c-eb6e-4f7a-a8e7-24c8bffe6497",
+        "title":"Jardinería Vertical",
+        "description":"Descripción 2",
+        "imageUrl":"IMAGES/planta2.jpg",
+        "unit":"pieza",
+        "stock":112,
+        "pricePerUnit":380,
+        "category":"Categoría B"
+    }]}
+
+###Post de productos que no existen
+POST http://localhost:3000/products/cart HTTP/1.1
+Content-Type: application/json
+
+{"products":[
+        {
+            "uuid": "noexiste",
+            "title": "Título 1",
+            "description": "Descripción 1",
+            "imageUrl": "IMAGES/planta1.png",
+            "unit": "pieza",
+            "stock": 10,
+            "pricePerUnit": 11,
+            "category": "Categoría A"
+        }
+    ]}
+### Obtener el UUID de producto que existe
+GET http://localhost:3000/products/:a4c79599-ea8f-4dbc-83d6-b2f45a3cbb99 HTTP/1.1
+
+### Obtener el UUID de producto que no existe
+GET http://localhost:3000/products/:4412-12 HTTP/1.1
+
+
+//PRUEBAS DE admin_products
+### Agregar Producto
+POST http://localhost:3000/admin/products HTTP/1.1
+Content-Type: application/json
+x-token: admin
+
+{
+    "title":"Producto 5",
+    "description":"Descripción 5",
+    "imageUrl":"unidad",
+    "unit":"unidad",
+    "stock":19,
+    "pricePerUnit":200,
+    "category":"Categoría E"
+}
+
+### Update de producto
+PUT http://localhost:3000/admin/products/:a4c79599-ea8f-4dbc-83d6-b2f45a3cbb99 HTTP/1.1
+Content-Type: application/json
+x-token: admin
+
+{
+    "title": "Nuevo",
+    "description":"Descripción 3",
+    "imageUrl":"IMAGES/planta3.jpg",
+    "unit":"unidades",
+    "stock":1000,
+    "pricePerUnit":125,
+    "category":"Categoría Nueva"
+}
+
+###Eliminar un producto existente
+DELETE http://localhost:3000/admin/products/:a4c79599-ea8f-4dbc-83d6-b2f45a3cbb99 HTTP/1.1
+Content-Type: application/json
+x-token: admin

@@ -1,0 +1,121 @@
+{"products":[{
+        "uuid":"a4c79599-ea8f-4dbc-83d6-b2f45a3cbb99",
+        "title":"Jardinería de contenedor",
+        "description":"Descripción 1",
+        "imageUrl":"IMAGES/planta1.png",
+        "unit":"pieza",
+        "stock":100,
+        "pricePerUnit":150,
+        "category":"Categoría A"
+    },
+    {
+        "uuid":"2d78ff2c-eb6e-4f7a-a8e7-24c8bffe6497",
+        "title":"Jardinería Vertical",
+        "description":"Descripción 2",
+        "imageUrl":"IMAGES/planta2.jpg",
+        "unit":"pieza",
+        "stock":112,
+        "pricePerUnit":380,
+        "category":"Categoría B"
+    },
+    {
+        "uuid":"d6008dd1-f434-40c1-b2a1-68c632cc073c",
+        "title":"Terrarios",
+        "description":"Descripción 3",
+        "imageUrl":"IMAGES/planta3.jpg",
+        "unit":"pieza",
+        "stock":112,
+        "pricePerUnit":325.5,
+        "category":"Categoría C"
+    },
+    {
+        "uuid":"75b470b0-969f-4a0b-8fd5-d2a230a2c8f3",
+        "title":"Jardinería de Interior Hidropónica",
+        "description":"Descripción 4",
+        "imageUrl":"IMAGES/planta4.png",
+        "unit":"pieza",
+        "stock":89,
+        "pricePerUnit":475.8,
+        "category":"Categoría D"
+    },
+    {
+        "uuid":"b4c79599-ea8f-4dbc-83d6-b2f45a3cbb99",
+        "title":"Jardinería de contenedor",
+        "description":"Descripción 1",
+        "imageUrl":"IMAGES/planta1.png",
+        "unit":"pieza",
+        "stock":100,
+        "pricePerUnit":150,
+        "category":"Categoría A"
+    },
+    {
+        "uuid":"bd78ff2c-eb6e-4f7a-a8e7-24c8bffe6497",
+        "title":"Jardinería Vertical",
+        "description":"Descripción 2",
+        "imageUrl":"IMAGES/planta2.jpg",
+        "unit":"pieza",
+        "stock":112,
+        "pricePerUnit":380,
+        "category":"Categoría B"
+    },
+    {
+        "uuid":"b6008dd1-f434-40c1-b2a1-68c632cc073c",
+        "title":"Terrarios",
+        "description":"Descripción 3",
+        "imageUrl":"IMAGES/planta3.jpg",
+        "unit":"pieza",
+        "stock":112,
+        "pricePerUnit":325.5,
+        "category":"Categoría C"
+    },
+    {
+        "uuid":"b5b470b0-969f-4a0b-8fd5-d2a230a2c8f3",
+        "title":"Jardinería de Interior Hidropónica",
+        "description":"Descripción 4",
+        "imageUrl":"IMAGES/planta4.png",
+        "unit":"pieza",
+        "stock":89,
+        "pricePerUnit":475.8,
+        "category":"Categoría D"
+    },
+    {
+        "uuid":"q4c79599-ea8f-4dbc-83d6-b2f45a3cbb99",
+        "title":"Jardinería de contenedor",
+        "description":"Descripción 1",
+        "imageUrl":"IMAGES/planta1.png",
+        "unit":"pieza",
+        "stock":100,
+        "pricePerUnit":150,
+        "category":"Categoría A"
+    },
+    {
+        "uuid":"qd78ff2c-eb6e-4f7a-a8e7-24c8bffe6497",
+        "title":"Jardinería Vertical",
+        "description":"Descripción 2",
+        "imageUrl":"IMAGES/planta2.jpg",
+        "unit":"pieza",
+        "stock":112,
+        "pricePerUnit":380,
+        "category":"Categoría B"
+    },
+    {
+        "uuid":"q6008dd1-f434-40c1-b2a1-68c632cc073c",
+        "title":"Terrarios",
+        "description":"Descripción 3",
+        "imageUrl":"IMAGES/planta3.jpg",
+        "unit":"pieza",
+        "stock":112,
+        "pricePerUnit":325.5,
+        "category":"Categoría C"
+    },
+    {
+        "uuid":"q5b470b0-969f-4a0b-8fd5-d2a230a2c8f3",
+        "title":"Jardinería de Holaaaaaaaaa Hidropónica",
+        "description":"Descripción 4",
+        "imageUrl":"IMAGES/planta4.png",
+        "unit":"pieza",
+        "stock":89,
+        "pricePerUnit":475.8,
+        "category":"Categoría D"
+    }
+    ]}
