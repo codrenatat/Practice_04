@@ -19,7 +19,7 @@ function getProductById(uuid){
 }
 
 function createProduct(product) {
-    // Crea un nuevo Producto a partir del objeto dado
+    
     fs.readFile('../Practica3/app/data/products.json', 'utf8', function (error, data) {
         if (error) {
             console.log(error);
