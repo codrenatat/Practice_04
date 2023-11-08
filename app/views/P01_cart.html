@@ -151,62 +151,25 @@
   </header>
   <main>
     <!-- BEGIN PRODUCT CARD -->
-  <div class="container mt-5">
+    <div class="container mt-5">
     <div class="row">
-      <!-- Columna 1 con muchas media-objects -->
-      <div class="col-md-8">
-       <!-- OBJECT 1 -->
-        <div class="media mb-3 border p-3">
-          <img src="./IMAGES/Card_6.jpeg" style="float: right; max-width: 150px; border-radius: 50%;">
-          <div class="media-body" style="width: 300px;">
-            <h4 class="mt-0 mb-1">Holli Cardigan &nbsp;<i class="fa-solid fa-trash" style="color: #ff903d;"></i></h4><br>
-            <div class="input-group mb-3">
-              <span class="input-group-text">Amount:</span>
-              <input type="number" class="form-control" id="Amount" value="1"> 
-            </div>
-            <div class="input-group mb-3">
-              <span class="input-group-text custom-width">Price:</span>
-              <input type="text" class="form-control" value="$700" id="Price" readonly>
-              <span class="input-group-text">MXN:</span>
-            </div>
-          </div>
+        
+        <div class="col-md-8">
+            <div id = 'shopping'> </div>
         </div>
-        <!-- OBJECT 2 -->
-        <div class="media mb-3 border p-3">
-          <img src="./IMAGES/Card_8.jpeg" style="float: right; max-width: 150px; border-radius: 50%;">
-          <div class="media-body" style="width: 300px;">
-            <h4 class="mt-0 mb-1">Ophelia Dress &nbsp;<i class="fa-solid fa-trash" style="color: #ff903d;"></i></h4><br>
-            <div class="input-group mb-3">
-              <span class="input-group-text">Amount:</span>
-              <input type="number" class="form-control" id="Amount" value="1"> 
+        
+        <div class="col-md-4">
+            <div class="media border p-3">
+                <div class="media-body">
+                    <div id = 'total'> </div>
+                  
+                    <div  style="text-align: center;">
+                        <button id = "boton-pagar" type="submit" class="btn" style="font-family: fantasy; border-color: #ff903d; color: #ff903d;">Pay</button><br><br>
+                        <button id = "boton-pagar" type="submit" class="btn" style="font-family: fantasy; border-color: #ff903d; color: #ff903d;">Cancel</button><br>
+                    </div>
+                </div>
             </div>
-            <div class="input-group mb-3">
-              <span class="input-group-text custom-width">Price:</span>
-              <input type="text" class="form-control" value="$800" id="Price" readonly>
-              <span class="input-group-text">MXN:</span>
-            </div>
-          </div>
         </div>
-        <!-- Agrega más Media-Objects según sea necesario -->
-      </div>
-
-      <!-- Columna 2 con una media-object -->
-      <div class="col-md-4">
-        <div class="media mb-3 border p-3">
-          <div class="media-body">
-            <h3 class="mt-0">Total</h3>
-            <b>Holli Cardigan:</b>  2 x $700.00 MXN
-            <br>
-            <b>Ophelia Dress:</b>  3 x $800.00 MXN
-            <br>
-            <b>International Shipping:</b> $600.00 MXN
-            <br><br>
-            <h5>Total: $4,400 MXN</h3>
-            <button type="button" class="btn btn-primary" style="background-color: white; border-color: #ff903d; color: #ff903d; font-family: fantasy;">Pagar</button>
-            <button type="button" class="btn btn-primary" style="background-color: white; border-color: #ff903d; color: #ff903d; font-family: fantasy;">Cancelar</button>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <!-- END PRODUCT CARD -->

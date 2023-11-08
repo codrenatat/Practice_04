@@ -15,24 +15,25 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- BEGIN BUY NOW MODAL -->
-    <div class="modal fade" id="bnModal" tabindex="-1" aria-labelledby="bnModalLabel" aria-hidden="true">
+    <div class="modal fade" id="bnModal">
       <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="bnModalLabel">Buy Now</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Escoge la cantidad a agregar:</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="input-group mb-3">
+                          <input id="counter" type="number" min = "0" step = "1" class="form-control" id="cantidad"> 
+                      </div>
+                  </form>
+                  <button id="btnAdd"type="submit" class="btn" style="font-family: fantasy; border-color: #fd88b6; color: #fd88b6;" data-bs-dismiss="modal">Add</button>
+                  <button type="submit" class="btn" style="font-family: fantasy; border-color: #fd88b6; color: #fd88b6;" data-bs-dismiss="modal">Cancel</button>
+              </div>
           </div>
-          <div class="modal-body text-center">
-            <p>Pick quantity:</p>
-            <input type="number" id="bnModaladd" class="form-control mx-auto" placeholder="Quantity" value="0" style="width: 200px;">
-          </div>
-          <div class="modal-footer text-center">
-            <button type="button" class="btn" style="font-family: fantasy; border-color: #fd88b6; color: #fd88b6;">Add</button>
-            <button type="button" class="btn" style="font-family: fantasy; border-color: #fd88b6; color: #fd88b6;" data-bs-dismiss="modal">Cancel</button>
-          </div>
-        </div>
       </div>
-    </div>
+  </div>
     <!-- END BUY NOW MODAL -->   
 
     <!--BEGIN LOGIN MODAL-->
